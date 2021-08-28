@@ -4,6 +4,8 @@
 
     <header>
         <router-link :to="{name: 'employees'}">Emploees list</router-link>
+      &nbsp;&nbsp;&nbsp;
+        <router-link :to="{name: 'employee_create'}">Add Emploee</router-link>
       </header>
     <main>
       <div class="content">
