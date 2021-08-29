@@ -1,7 +1,8 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 import Employees from "../components/Employees"
 import Employee from "../components/Employee"
-import ActionEmployee from "../components/ActionEmployee"
+import CreateEmployee from "../components/CreateEmployee"
+import EditEmployee from "../components/EditEmployee"
 
 const routes = [
     {
@@ -17,12 +18,12 @@ const routes = [
     {
         path: '/create',
         name: 'employee_create',
-        component: ActionEmployee
+        component: CreateEmployee
     },
     {
         path: '/edit/:id',
         name: 'employees_edit',
-        component: ActionEmployee
+        component: EditEmployee
     }
 ]
 const router = createRouter({

@@ -9,7 +9,7 @@
         <th scope="col">Specialisation</th>
         <th scope="col">Experience(years)</th>
         <th scope="col">Description</th>
-        <th scope="col">Skills</th>
+        <th scope="col">Details</th>
         <th scope="col">Actions</th>
       </tr>
       </thead>
